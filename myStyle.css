@@ -1,0 +1,16 @@
+.container{
+    border: 2px solid black;
+    height: 4000px;
+
+}
+
+.box{
+    border: 2px solid red;
+    height: 100px;
+    width: 100px;
+} 
+#box3{
+    position: sticky;
+    top: 50px;
+    left: 150px;
+} 

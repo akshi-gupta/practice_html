@@ -1,0 +1,46 @@
+<html>
+<head> 
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+    <title>Media Query</title> 
+    <style> 
+        * { 
+            box-sizing: border-box; 
+        } 
+        .content { 
+            width: 25%; 
+            padding: 20px; 
+            float: left; 
+            color:antiquewhite; 
+        } 
+        @media screen and (max-width:1200px){ 
+            .content{ 
+                width:50% 
+            } 
+        } 
+        @media screen and (max-width: 600px) { 
+            .content{ 
+                width: 100%; 
+            }     
+        } 
+    </style> 
+</head> 
+<body> 
+    <h2>Responsive Layout using Media Queries</h2> 
+    <div style='background-color:darkgreen;' class="content"> 
+        <h1>Content 1</h1> 
+        <p>This is division 1</p> 
+    </div> 
+    <div style='background-color:rgb(3, 145, 3);' class="content"> 
+        <h1>Content 2</h1> 
+        <p>This is division 2</p> 
+    </div> 
+    <div style='background-color:rgb(8, 218, 8);' class="content"> 
+        <h1>Content 3</h1> 
+        <p>This is division 3</p> 
+    </div> 
+    <div style='background-color:rgb(141, 245, 141);' class="content"> 
+        <h1>Content 4</h1>
+        <p>This is division 4</p> 
+    </div> 
+</body> 
+</html> 

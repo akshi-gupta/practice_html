@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>CSS</title>
+        <style>
+        /* selectors{
+            declaration - key:value; ->
+        }*/
+         /* h1{
+            font-family: 'Segoe UI', 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            color:lightsalmon;
+            
+        }
+        #myStyle{
+            background-color:lightslategray; 
+        }
+        table,td,tr{
+            border: 1px solid black;
+        }
+        .setGray{
+            background-color:gray
+        } 
+        *{
+            border:2px solid black;
+
+        } */
+        /* .ownClass{
+            background-color: rgb(150, 143, 143);
+            color: rgb(187, 189, 75);
+            border: 5px solid black;
+            padding: 50px 20px px 30px;
+            margin: 4px;
+        } */
+        /* #first{
+            background-color: rgb(120, 146, 175);
+            color: rgb(235, 125, 198);
+            border: 5px solid black;
+            padding: 40px;
+            margin: 4px;
+            width: 230px;
+            height: 300px;
+            box-sizing: border-box;   
+            overflow: auto; 
+        }
+        #second{
+            background-color: rgb(120, 146, 175);
+            color: rgb(187, 189, 75);
+            border: 5px solid black;
+            padding: 40px;
+            margin: 4px;
+            width: 230px;
+            height: 300px;
+            box-sizing: border-box;     
+        } */
+        .container{
+            border: 2px solid black;
+            height: 4000px;
+
+        }
+
+        .box{
+            border: 2px solid red;
+            height: 100px;
+            width: 100px;
+        }
+        /* i wantbox3 to be placed 50px from top and 150 px from right nothing is happening becoz it is static any t,r,b,l will not work
+        relative- element will shift relative to normal position
+        absolute- element will shift relativ to parent position
+        fixed- will be fixed to a particular position, (relative to browser window) 
+        sticky- it will scroll stick once it reaches to top of screen*/
+        #box3{
+            position: sticky;
+            top: 50px;
+            left: 150px;
+        }
+    </style>
+    <!-- <link rel="stylesheet" href="./myStyle.css"> -->
+    
+    </head>
+    <body>
+        <!-- inline css- within the tag we can add style.
+        embedded css- using <style> element in head section we can add styles -->
+
+            <!-- selectors
+            1)Type selectors-> SELECT ALL TH EELEMENTS that matches with the tag/element
+             2)Id selector-> if we want to style a single element we can use id 
+            we know that id will be unique for all the elements
+             3)class selector->class names can be used with multiple html elements and can be styled-->
+        
+            
+        <!-- <h1>Hello World</h1>
+        <h1 id="myStyle">Welcome to css session</h1>
+        <h1>This is my first page</h1>
+        <table>
+            <tr class="setGray">
+                <td>James</td>
+                <td>24</td>
+            </tr>
+            <tr>
+                <td>Jack</td>
+                <td>26</td>
+            </tr>
+            <tr class="setGray">
+                <td>James</td>
+                <td>23</td>
+            </tr>
+        </table> -->
+
+        <!-- <div class="container">
+            <p id="first" class="ownClass">
+                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Sunt, fugit pariatur 
+                aliquam excepturi nihil nostrum iure aut at quas sapiente.
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit. 
+                Quas saepe suscipit corporis possimus soluta sit, dolores hic eos 
+                labore delectus, temporibus ea, sapiente vitae ducimus magnam cum. At, a esse.
+
+            </p>
+            <p id="second" class="ownClass" >
+                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Sunt, fugit pariatur 
+                aliquam excepturi nihil nostrum iure aut at quas sapiente.
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Explicabo, minima!
+            </p>
+            <p id="third" class="ownClass">
+                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Sunt, fugit pariatur 
+                aliquam excepturi nihil nostrum iure aut at quas sapiente.
+                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eos, quia!
+            </p>
+          
+        </div> -->
+
+        <div class="container">
+            <div class="box" id="box1">Box1</div>
+            <div class="box" id="box2">Box2</div>
+            <div class="box" id="box3">Box3</div>
+            <div class="box" id="box4">Box4</div>
+        </div>
+        
+  
+   <!-- <h1> Hi! I’m enclosed in a big Box. </h1> 
+   <div> This is your <div> CSS <i>Box Model</i></div> 
+   </div><br/><br/> 
+   <p>We can clearly observe that each element is wrapped inside a box. </p>  -->
+   
+
+
+    </body>
+</html>

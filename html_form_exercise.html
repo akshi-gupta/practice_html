@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Registration Form</title>
+    </head>
+    <body>
+        <h3><center>Customer Registration</center></h3><br>
+        <center><form mame="custForm">
+            <div>
+            <label for="username">User Name:</label>
+            <input type="text" name="username" id="username" pattern="[A-Za-z]+" max="15" autofocus>
+            </div> <br>
+            <div>
+                <label for="password">Password:</label>
+                <input type="password" name="pass" id="password" minlength="8" maxlength="12" pattern="[A-Za-z]+[0-9]$"><br>
+            </div><br>
+            <div>
+                <label for="email">Email:</label>
+                <input type="email" name="email" id="email"><br>
+            </div><br>
+            <div>
+                <label for="gender">Gender:</label>
+                <input type="radio" name="gender" value="Male">Male
+                <input type="radio" name="gender" value="Female">Female
+                <input type="radio" name="gender" value="Other">Other
+                <br>
+            </div><br>
+            <div>
+                <label for="age">Age (Yrs):</label>
+                <input type="range" min="21" max="60" required>
+            </div><br>
+            <div>
+                <label for="address">Address</label>
+                <textarea rows="4" cols="20" maxlength="100"></textarea>
+            </div><br>
+            <div>
+                <label for="url">Company Website:</label>
+                <input type="url" id="url">
+            </div><br>
+            <div>
+                <label for="dropdown_list">Choose Country:</label>
+                <select id="dropdown_list">
+                    <option>India</option>
+                    <option>United States</option>
+                    <option>Germany</option>
+                    <option>Japan</option>
+                </select>
+            </div><br>
+            <div>
+                <label for="date">Date of Journey:</label>
+                <input type="date" id="date">
+            </div><br>
+            <div>
+                <button type="submit">Submit</button>
+                <button type="reset">Reset</button>
+            </div>
+            
+
+
+        
+        
+        
+        
+        
+        </form>
+        </center>
+    </body>
+</html>

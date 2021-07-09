@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Registration Form</title>
+        <style>
+            table,tr,th,td{
+                border: 1px solid black;
+            }
+
+        </style>
+    </head>
+    <body>
+        <center>
+            <table>
+                <thead>
+                    <th colspan="8" >XYZ University Student Registration</th>
+                </thead>
+           
+            <tr>
+                <td rowspan="4">Personal Details</td>
+                <td> First Name</td>
+                <td><input type="text" required style="background-color: lemonchiffon;" maxlength="10"></td>
+            </tr>
+            <tr>
+                <td>Last Name</td>
+                <td><input required style="background-color: lemonchiffon;" maxlength="10"></td>
+                
+            </tr>
+            <tr>
+                <td>Date of Birth</td>
+                <td><input required></td>
+            </tr>
+            <tr>
+                <td>Gender</td>
+                <td>
+                    <input type="radio" value="Male">Male
+                    <input type="radio" value="Female">Female
+                    <input type="radio" value="Other">Other
+                </td>
+            </tr>
+            <tr>
+                <td rowspan="4">Academic Details</td>
+                <td>Degree</td>
+                <td><select>
+                    <option>Masters</option>
+                    <option>Bachelors</option>
+                    <option>Doctorate</option>
+                </select></td>
+            </tr>
+            <tr>
+                <td>Specialization</td>
+                <td><input required maxlength="40"></td>
+                   
+            </tr>
+            <tr>
+                <td>Mode of instruction</td>
+                <td>
+                    <input type="checkbox">classroom
+                    <input type="checkbox">Online   
+                </td>  
+            </tr>
+            <tr>
+                <td>Current CGPA</td>
+                <td><input required max="5"></td>     
+            </tr>
+            <tr>
+                <td rowspan="4">Contact Details</td>
+                <td>Phone Number</td>
+                <td><input required style="background-color: lemonchiffon;"></td>
+            </tr>
+            <tr>
+                <td>Address</td>
+                   <td><textarea style="background-color: lemonchiffon;" rows="4" maxlength="40"></textarea></td> 
+            </tr>
+            <thead>
+                <th colspan="8">I assure all the details entered are correct:<input type="checkbox">Yes</th>
+            </thead>
+            <thead>
+                <th colspan="8"><button>Submit</button></th>
+            </thead>
+        </table>
+        <table>
+            
+         
+        </table>
+
+            
+
+        </center>
+    </body>
+</html>
+

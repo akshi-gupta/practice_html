@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+    <head>
+    <title>Booking</title>
+    </head>
+    <body>
+        
+            <h3><center>Dine Booking</center></h3><br>
+        <form name="dine_booking_form">
+            <center>
+            <table>
+            
+            <tr>
+            <td><label for="name">Visitors Name:</label></td>
+            <td><input type="text" name="vname" id="name" maxlength="20"></td>
+            </tr>
+
+            <tr>
+            <td><label for="number">Number of members:</label></td>
+            <td><input type="number" name="totalnumber" id="number" min="1"" max="20"></td>
+            </tr>
+
+            <tr>
+            <td><label for="cnumber">Contact No:</label></td>
+            <td><input type="tel" name="no" id="cnumber"></td>
+            </tr>
+
+            <tr>
+            <td><label for="email">Email</label></td>
+            <td><input type="email" name="email" id="email"></td>
+            </tr>
+
+            <tr>
+            <td><label for="variety">Type of Food:</label></td>
+            <td><input type="checkbox" name="typefood" id="variety">South Indian
+            <input type="checkbox" name="typefood" id="variety">North Indian
+            <input type="checkbox" name="typefood" id="variety">Chinese
+            <input type="checkbox" name="typefood" id="variety">Western 
+            </td>
+            </tr>
+
+            <tr>
+            <td><label for="status">Room Status:</label></td>
+            <td><input type="radio" id="status" value="AC">AC
+            <input type="radio" id="status" value="Non-AC">Non-AC
+            </td>
+            </tr>
+
+            <tr>
+            <td><label for="dropdown_list">Venue Preferences:</label></td>
+            <td><select id="dropdown_list">
+                <option>--SELECT--</option>
+            </select>
+            </td>
+            </tr>
+
+            <tr>
+            <td>
+            <button type="submit">Book</button></td>
+            <td><button type="reset">Reset</button></td>
+            </tr>
+       
+        </table>
+    </center>
+        </form>
+       
+            
+        
+        
+    </body>
+</html>

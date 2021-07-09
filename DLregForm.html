@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+    <title>Driver Licence Form</title>
+    <body>
+        <p>Application for Drivers licence</p>
+        <br>
+        <form method="post">
+            Name: <input type="text" required pattern="[A-Za-z]"><br>
+            Age: <input type="number" required><br>
+            Address: <input maxlength="30" required><br>
+            Contact no: <input type="tel" minlength="10" maxlength="10"><br>
+            <input type="checkbox">
+            I own an expired driver's licence.<br>
+            Date of Birth:<input type="date"><br>
+            Gender:<input type="radio" value="Male">Male
+                   <input type="radio" value="Female">Female
+                   <input type="radio" value="Other">Other
+                   <br>
+            PAN:<input pattern="[A-Za-z0-9_]*$" required maxlength="10"><br>
+            LL No:<input pattern="[A-Za-z0-9_]*$" required maxlength="12"><br>
+
+            <input type="submit">
+
+        </form>
+    </body>
+
+</html>
