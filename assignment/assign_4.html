@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Bookingt</title>
+    <style>
+      table,
+      th,
+      tr,
+      td {
+        border: 1px solid black;
+      }
+    </style>
+  </head>
+  <body>
+    <center>
+      <table>
+        <thead>
+          <th colspan="2">
+            XYZ Online Delivery
+          </th>
+        </thead>
+        <thead>
+          <th colspan="2">Personal Details</th>
+        </thead>
+        <tr>
+          <td>First Name <sup style="color: red">*</sup></td>
+          <td>
+            <input
+              type="text"
+              maxlength="20"
+              required
+              style="background-color: antiquewhite"
+            />
+          </td>
+        </tr>
+        <tr>
+          <td>Phone number <sup style="color: red">*</sup></td>
+          <td><input type="text" required /></td>
+        </tr>
+        <thead>
+          <th colspan="2">Order Preferences</th>
+        </thead>
+        <tr>
+          <td>Size <sup style="color: red">*</sup></td>
+          <td>
+            <input type="radio" value="Small" name="size" required />Small
+            <input type="radio" value="Medium" name="size" />Medium
+            <input type="radio" value="Large" name="size" />Large
+          </td>
+        </tr>
+        <tr>
+          <td>Base <sup style="color: red">*</sup></td>
+          <td>
+            <select name="dropdown" id="dropdown" required>
+              <option>Chicken Stuffed Crust</option>
+              <option>Pan Pizza</option>
+              <option>Cheese Crust</option>
+            </select>
+          </td>
+        </tr>
+        <tr>
+          <td>Toppings <sup style="color: red">*</sup></td>
+          <td>
+            <input type="checkbox" />Cheese <input type="checkbox" />Olives
+            <input type="checkbox" />Tomatoes <input type="checkbox" />Capsicum
+            <input type="checkbox" />Jalepenos
+            <input type="checkbox" />Mushrooms
+            <input type="checkbox" />Pepperoni <input type="checkbox" />Onion
+          </td>
+        </tr>
+        <tr>
+          <td rowspan="3">Additional details</td>
+          <td>
+            <textarea name="details" id="details" rows="2" cols="30"></textarea>
+          </td>
+        </tr>
+        <thead>
+          <th colspan="2">
+            Confirm details and proceed to pay?
+            <input type="radio" name="pay" value="Yes" />Yes
+            <input type="radio" name="pay" value="No" />No
+          </th>
+        </thead>
+        <thead>
+          <th colspan="2"><button>Submit</button></th>
+        </thead>
+      </table>
+    </center>
+  </body>
+</html>
+@akshi-gupta
